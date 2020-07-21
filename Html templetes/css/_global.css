@@ -29,10 +29,6 @@ html, body{
 
 /* ---------------- Global Classes ---------------*/
 
-a{
-    text-decoration: none;
-    color: var(--text-gray);
-}
 
 .flex-row{
     display: flex;

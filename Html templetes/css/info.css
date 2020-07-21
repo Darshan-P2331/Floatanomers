@@ -2,7 +2,10 @@
 @import url('../css/fonts.css');
 @import url('../css/_global.css');
 
-
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
 
 /* --------------- Navbar ----------------- */
 
@@ -27,11 +30,12 @@
     font-size: 1.1rem;
 }
 
-.navbar .navbar-nav .nav-item:hover, .navbar .nav-item.active{
+.navbar .nav-item:hover, .navbar .nav-item.active{
     background: var(--midnight);
-    color: var(--white);
 }
-
+.navbar .nav-link:hover, .navbar .active .nav-link{
+    color: var(--white) !important;
+}
 /* --------------- Navbar ----------------- */
 
 
